@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SatheAchi.com - Order Now</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>SatheAchi.com</h1>
+<p>Trusted Shopping Partner</p>
+</header>
+
+<div class="container">
+
+<div class="product">
+
+<img src="product.jpg" alt="Product">
+
+<h2>Natural Health Supplement</h2>
+
+<h3>৳399</h3>
+
+<p>✔️ ১০০% অরিজিনাল</p>
+<p>✔️ সারা বাংলাদেশে হোম ডেলিভারি</p>
+
+</div>
+
+<div class="order">
+
+<h2>Your Order</h2>
+
+<label>Quantity</label>
+
+<div class="qty">
+
+<button onclick="minus()">-</button>
+
+<input type="text" id="qty" value="1" readonly>
+
+<button onclick="plus()">+</button>
+
+</div>
+
+<h3>Total: ৳ <span id="total">399</span></h3>
+
+<form>
+
+<input type="text" placeholder="আপনার নাম" required>
+
+<input type="tel" placeholder="মোবাইল নম্বর" required>
+
+<textarea placeholder="সম্পূর্ণ ঠিকানা"></textarea>
+
+<button type="submit">
+অর্ডার কনফার্ম করুন
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
